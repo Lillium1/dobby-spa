@@ -11,6 +11,7 @@
 	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<!-- Tipografia -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -30,9 +31,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
+					<li><a href="#" class="text-home">Home</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle text-nav" id="dropdownMenu1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">blog <span class="caret"></span></a>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 							<li><a href="#">Action</a></li>
 							<li><a href="#">Another action</a></li>
@@ -44,7 +45,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle text-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">about us <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Action</a></li>
 							<li><a href="#">Another action</a></li>
@@ -55,8 +56,8 @@
 							<li><a href="#">One more separated link</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Careers</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="#" class="text-nav">careers</a></li>
+					<li><a href="#" class="text-nav">contact us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -87,49 +88,55 @@
 
 			<!-- Controls -->
 			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
 			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
 	</section>
 
 	<div class="contenido">
-		<section>
+		<section id="one">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 						<div class="services text-center">
 							<img src="assets/img/skin_care_1_thumb.jpg" alt="" class="img-responsive img-circle">
-							<h4>SKIN CARE</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis, quasi nobis consectetur. Tempore neque, similique quod nostrum accusantium repellat.</p>
+							<div class="info-services">
+								<h4>SKIN CARE</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis.</p>
+							</div>
 							<a href="#" class="readme">READ MORE...</a>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 						<div class="services text-center">
 							<img src="assets/img/spa_ treatments_thumb.jpg" alt="" class="img-responsive img-circle">
-							<h4>SPA TREATMENTS</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis, quasi nobis consectetur. Tempore neque, similique quod nostrum accusantium repellat.</p>
+							<div class="info-services">
+								<h4>SPA TREATMENTS</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis.</p>
+							</div>
 							<a href="#" class="readme">READ MORE...</a>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 						<div class="services text-center">
 							<img src="assets/img/aromatherapy_1_thumb.jpg" alt="" class="img-responsive img-circle">
-							<h4>AROMATHERAPY</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis, quasi nobis consectetur. Tempore neque, similique quod nostrum accusantium repellat.</p>
+							<div class="info-services">
+								<h4>AROMATHERAPY</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis.</p>
+							</div>
 							<a href="#" class="readme">READ MORE...</a>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 						<div class="services text-center">
 							<img src="assets/img/massage_thumb.jpg" alt="" class="img-responsive img-circle text-center">
-							<h4>MASSAGE</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis, quasi nobis consectetur. Tempore neque, similique quod nostrum accusantium repellat.</p>
+							<div class="info-services">
+								<h4>MASSAGE</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas a consequuntur dolorem doloremque blanditiis.</p>
+							</div>
 							<a href="#" class="readme">READ MORE...</a>
 						</div>
 					</div>
@@ -137,7 +144,7 @@
 			</div>
 		</section>
 		
-		<section>
+		<section id="two">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -146,28 +153,31 @@
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-						<h3 class="text-center">WELCOME TO BEAUTY & HAIR</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minus asperiores unde voluptate nulla, obcaecati vel explicabo reprehenderit ex dignissimos.</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-						</ul>
+						<div class="info-welcome">
+							<h3 class="text-center">WELCOME TO BEAUTY & HAIR</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minus asperiores unde voluptate nulla, obcaecati vel explicabo reprehenderit ex dignissimos.</p>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section>
+		<section id="three">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="info">
 							<div class="about text-right">
 								<h4>ABOUT US</h4>
-								<hr>
+								<div class="linea"></div>
+								<div class="pelota izq"></div>
 								<p><img src="assets/img/home1.jpg" alt="" align="left" class="img-rounded foto-align1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis ullam, consequatur dignissimos possimus, voluptatem! Neque vitae eveniet rerum, sint quibusdam alias harum adipisci omnis. Optio, recusandae fuga quis minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo omnis, et voluptatum impedit, natus iure tempore in nam vitae maiores exercitationem, possimus perspiciatis placeat eligendi expedita, aspernatur voluptatibus repellat pariatur.
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis ullam, consequatur dignissimos possimus, voluptatem! Neque vitae eveniet rerum, sint quibusdam alias harum adipisci omnis. Optio, recusandae fuga quis minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo omnis, et voluptatum impedit, natus iure tempore in nam vitae maiores exercitationem, possimus perspiciatis placeat eligendi expedita, aspernatur voluptatibus repellat pariatur.
 								</p>
@@ -178,7 +188,8 @@
 						<div class="info">
 							<div class="git text-left">
 								<h4>GIT PROGRAM</h4>
-								<hr>
+								<div class="linea"></div>
+								<div class="pelota der"></div>
 								<p><img src="assets/img/home2.jpg" alt="" align="right" class="img-rounded foto-align2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis ullam, consequatur dignissimos possimus, voluptatem! Neque vitae eveniet rerum, sint quibusdam alias harum adipisci omnis. Optio, recusandae fuga quis minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo omnis, et voluptatum impedit, natus iure tempore in nam vitae maiores exercitationem, possimus perspiciatis placeat eligendi expedita, aspernatur voluptatibus repellat pariatur.
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis ullam, consequatur dignissimos possimus, voluptatem! Neque vitae eveniet rerum, sint quibusdam alias harum adipisci omnis. Optio, recusandae fuga quis minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo omnis, et voluptatum impedit, natus iure tempore in nam vitae maiores exercitationem, possimus perspiciatis placeat eligendi expedita, aspernatur voluptatibus repellat pariatur.
 								</p>
@@ -189,7 +200,7 @@
 			</div>
 		</section>
 		
-		<section>
+		<section id="four">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -205,13 +216,15 @@
 						<div class="follow">
 							<div class="row">
 								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-									<h4>PEOPLE ARE TALKING</h4>
-									<p class="text-left"><span align="left" class="comillas">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit provident natus, eaque dicta. A ut dolores, vel at soluta tempora similique. Modi deleniti quas voluptatibus dicta, omnis sunt qui id?</p>
+									<div class="talking">
+										<h4>PEOPLE ARE TALKING</h4>
+										<div class="comillas"><span class="comillas" class="comillas">“</span></div><p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit provident natus, eaque dicta. A ut dolores, vel at soluta tempora similique. Modi deleniti quas voluptatibus dicta, omnis sunt qui id?</p>
+									</div>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 									<h4>CONTACT US</h4>
 									<h5>TOLL FREE: 1 800 987 65 43</h5>
-									<p>Email: <a href="#">email@demolink.org</a></p>
+									<p>Email: <a href="#" class="link-a">email@demolink.org</a></p>
 									<h5>OUR ADDRESS</h5>
 									<p>17600 Yonge Biggest St, Toronto, L3Y 4Z1</p>
 								</div>
